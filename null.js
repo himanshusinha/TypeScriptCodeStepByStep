@@ -1,7 +1,9 @@
-"use strict";
 var data12 = null;
-var user = null;
-if (user) {
-    user = "Himanshu";
+data12 = "code step by step";
+var userNamee = null;
+var login = true;
+if (login) {
+    userNamee = "Anil Sidhu";
 }
-console.log(typeof data12);
+console.log(data12);
+console.log(userNamee);
