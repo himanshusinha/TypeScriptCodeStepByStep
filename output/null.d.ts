@@ -1,2 +1,3 @@
-declare var data12: null | string;
-declare var user: null | string;
+declare let data12: string | null;
+declare let userNamee: string | null;
+declare let login: boolean;
