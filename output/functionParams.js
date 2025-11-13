@@ -8,11 +8,11 @@ function totalPrice(items, price, text) {
     }
 }
 totalPrice(50, 30, "Total Price is : ");
-function simple(data) {
+// function simpleFunction(data: string | number | boolean) {
+//   console.log(data);
+// }
+// simpleFunction(100);
+function simpleFunction(data) {
     console.log(data);
 }
-simple(100);
-function simple(data) {
-    console.log(data);
-}
-simple(true);
+simpleFunction(true);
