@@ -1,9 +1,9 @@
 "use strict";
-var empData11 = {
-    name: "anil",
-    email: "anil@gmail.com",
+var empData1 = {
+    name: "Himanshu",
+    email: "himanshu@test.com",
 };
-var studentData1Type = {
-    name: "sam",
+var studentData1 = {
+    name: "Sam",
     email: "sam@gmail.com",
 };

@@ -2,14 +2,12 @@ type DataType = {
     name: string;
     email: string;
 };
-interface a {
+type a = {
     name: string;
-}
-interface b extends a {
-    email: string;
-}
-declare var empData11: DataType;
-declare var studentData1Type: {
-    name: string;
+};
+type b = {
     email: string;
 };
+type c = a | b;
+declare var empData1: DataType;
+declare var studentData1: DataType;
