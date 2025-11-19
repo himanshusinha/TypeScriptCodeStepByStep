@@ -11,11 +11,11 @@ declare enum Fruit {
     c = "cherry"
 }
 declare var myFruit: Fruit;
-declare enum Role {
+declare enum UserRole {
     admin = 0,
     manager = 1,
     developer = 2,
     qa = 3,
     user = 4
 }
-declare var userRoles: Role;
+declare var userRoles: UserRole;

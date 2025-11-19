@@ -17,7 +17,7 @@ enum Fruit {
 var myFruit: Fruit = Fruit.a;
 console.log(myFruit);
 
-enum Role {
+enum UserRole {
   admin,
   manager,
   developer,
@@ -25,5 +25,5 @@ enum Role {
   user,
 }
 
-var userRoles: Role = Role.developer;
+var userRoles: UserRole = UserRole.developer;
 console.log(userRoles);

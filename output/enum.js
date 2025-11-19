@@ -16,13 +16,13 @@ var Fruit;
 })(Fruit || (Fruit = {}));
 var myFruit = Fruit.a;
 console.log(myFruit);
-var Role;
-(function (Role) {
-    Role[Role["admin"] = 0] = "admin";
-    Role[Role["manager"] = 1] = "manager";
-    Role[Role["developer"] = 2] = "developer";
-    Role[Role["qa"] = 3] = "qa";
-    Role[Role["user"] = 4] = "user";
-})(Role || (Role = {}));
-var userRoles = Role.developer;
+var UserRole;
+(function (UserRole) {
+    UserRole[UserRole["admin"] = 0] = "admin";
+    UserRole[UserRole["manager"] = 1] = "manager";
+    UserRole[UserRole["developer"] = 2] = "developer";
+    UserRole[UserRole["qa"] = 3] = "qa";
+    UserRole[UserRole["user"] = 4] = "user";
+})(UserRole || (UserRole = {}));
+var userRoles = UserRole.developer;
 console.log(userRoles);
